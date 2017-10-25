@@ -1,0 +1,29 @@
+{
+    "editor.minimap.renderCharacters": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.detectIndentation": true,
+    "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "boundary",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editor.enablePreview": false,
+    "window.nativeTabs": true,
+    "files.insertFinalNewline": true,
+    "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
+    "eslint.options": {
+        "indent": ["warn", 2]
+    },
+    "[php]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    },
+    "[javascript]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false
+    },
+    "editor.formatOnSave": false,
+    "emmet.includeLanguages": {
+        "blade": "html"
+    }
+}
