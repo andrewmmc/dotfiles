@@ -5,11 +5,13 @@
     "editor.detectIndentation": true,
     "editor.renderLineHighlight": "all",
     "editor.renderWhitespace": "boundary",
+    "editor.wordWrap": "on",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.iconTheme": "vscode-icons",
     "workbench.editor.enablePreview": false,
-    "window.nativeTabs": true,
-    "files.insertFinalNewline": true,
+    "window.nativeTabs": false,
+    "files.autoGuessEncoding": true,
+    "files.insertFinalNewline": false,
     "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
     "eslint.options": {
         "indent": ["warn", 2]
