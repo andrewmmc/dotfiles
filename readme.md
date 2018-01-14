@@ -6,34 +6,29 @@ This is a collection of dot files to set up and sync my software development env
 
 clone the repo in your home directory, enter this folder and run
 ``` bash
-chmod -R 0755 ./install-software.sh
-chmod -R 0755 ./install-settings.sh
-./install-software.sh && ./install-settings.sh
+chmod -R 0755 ./install.sh && ./install.sh
 ```
 
-After installed Jetbrains Toolbox, you may install PhpStorm via Jetbrains Toolbox.
-
-To sync the settings of PhpStorm, please install `IDE Settings Sync` in Plugin.
+To sync the settings of PhpStorm, please install `IDE Settings Sync` in Plugin, and login to JetBrains account.
 
 ## Packages installed
-* php & mysql
 * composer
 * git
+* git-lfs
 * git-standup
+* homebrew & homebrew cask
 * node
-* homebrew cask
-* oh-my-zsh
+* php
 * wget
-* zsh
-* zsh-completions
+* zsh & zsh-completions & oh-my-zsh
 
-## Software installed
+## Softwares installed
 * 1Password
 * Alfred
 * Docker
 * Evernote
-* Franz
 * Filezilla
+* Franz
 * Google Backup and Sync
 * Google Chrome
 * Google Web Designer
@@ -42,10 +37,11 @@ To sync the settings of PhpStorm, please install `IDE Settings Sync` in Plugin.
 * Kdiff3
 * Keepingyouawake
 * Kitematic
-* Mozilla Firefox
 * Microsoft Office
-* Pritunl
+* Mozilla Firefox
+* Phpstorm
 * Postman
+* Pritunl
 * Pritunl
 * Robo 3T
 * Sequel Pro
@@ -57,11 +53,10 @@ To sync the settings of PhpStorm, please install `IDE Settings Sync` in Plugin.
 * Virtualbox
 * Visual Studio Code
 * VLC
-* Jetbrains Toolbox
 
 ## Settings installed
 * iTerm2
-* oh-my-zsh
+* zsh & oh-my-zsh
 * Visual Studio Code
 
 ## Contributors
