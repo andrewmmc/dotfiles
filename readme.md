@@ -16,6 +16,8 @@ After installed Jetbrains Toolbox, you may install PhpStorm via Jetbrains Toolbo
 To sync the settings of PhpStorm, please install `IDE Settings Sync` in Plugin.
 
 ## Packages installed
+* php & mysql
+* composer
 * git
 * git-standup
 * node
