@@ -76,7 +76,8 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 # Will be installed by syncing settings below
 git clone git://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 
-# Use .zshrc in this repo
+# Sync .zshrc settings first
+rm -f "$HOME/.zshrc"
 ln -sf "$HOME/dotfiles/zsh/.zshrc" "$HOME/.zshrc"
 # echo "source ~/.bash_profile" >> $HOME/dotfiles/zsh/.zshrc
 
@@ -127,11 +128,27 @@ brew cleanup
 brew cask cleanup
 
 # Sync settings in this repo
+# Alfred settings
+rm -f "$HOME/Library/Application Support/Alfred 3/Alfred.alfredpreferences"
+ln -sf "$HOME/dotfiles/alfred/Alfred.alfredpreferences" "$HOME/Library/Application Support/Alfred 3/Alfred.alfredpreferences"
+
+cd ./alfred/workflow
+# Workflow: AlfredSwitchWindows
+# https://github.com/mandrigin/AlfredSwitchWindows/releases
+curl -O "https://github.com/mandrigin/AlfredSwitchWindows/releases/download/v0.2.8/Swift.Window.Switcher.v0.2.8.alfredworkflow"
+# Workflow: JetBrains: Open project
+# https://github.com/bchatard/jetbrains-alfred-workflow
+curl -O "https://github.com/bchatard/jetbrains-alfred-workflow/blob/master/package/JetBrains%20-%20Open%20project.alfredworkflow?raw=true"
+cd ../../
+
 # iTerm2 settings
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/dotfiles/iterm2"
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 
 # VS Code settings
+rm -f "$HOME/Library/Application Support/Code/User/keybindings.json"
+rm -f "$HOME/Library/Application Support/Code/User/settings.json"
+rm -f "$HOME/Library/Application Support/Code/User/vsicons.settings.json"
 ln -sf "$HOME/dotfiles/vs-code/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
 ln -sf "$HOME/dotfiles/vs-code/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
 ln -sf "$HOME/dotfiles/vs-code/vsicons.settings.json" "$HOME/Library/Application Support/Code/User/vsicons.settings.json"
