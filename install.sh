@@ -58,7 +58,7 @@ brew update && brew upgrade
 brew install git
 brew install git-lfs
 brew install git-standup
-# brew install mas
+brew install mas
 brew install wget
 brew install zsh zsh-completions
 
@@ -91,7 +91,7 @@ rm -rf fonts
 # Homebrew Cask
 brew tap caskroom/cask
 
-# Install softwares via brew cask
+# Install software via brew cask
 # Password is required for first time installation
 brew cask install 1password
 brew cask install alfred
@@ -127,6 +127,32 @@ brew cask install vlc
 brew cleanup
 brew cask cleanup
 
+# Install software via mas
+# Apple ID is required to login for this action
+# Uncomment the following command for auto sign in
+# mas signin email@email.com
+
+mas install 540348655 # Monosnap (3.4.9)
+mas install 904280696 # Things3 (3.3)
+mas install 568494494 # Pocket (1.6.6)
+mas install 1102004240 # iHosts (1.3.0)
+
+# Install npm global packages
+npm install -g @angular/cli
+npm install -g @pingy/cli
+npm install -g create-react-app
+npm install -g eslint
+eslint --init
+## TODO: Sync .eslintrc files
+npm install -g express-generator
+npm install -g firebase-tools
+npm install -g gulp-cli
+npm install -g react-native-cli
+npm install -g standard # Javascript Standard Style
+# npm install -g typescript
+# npm install -g tslint # need install typescript first
+npm install -g vue-cli
+
 # Sync settings in this repo
 # Alfred settings
 rm -f "$HOME/Library/Application Support/Alfred 3/Alfred.alfredpreferences"
@@ -152,6 +178,41 @@ rm -f "$HOME/Library/Application Support/Code/User/vsicons.settings.json"
 ln -sf "$HOME/dotfiles/vs-code/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
 ln -sf "$HOME/dotfiles/vs-code/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
 ln -sf "$HOME/dotfiles/vs-code/vsicons.settings.json" "$HOME/Library/Application Support/Code/User/vsicons.settings.json"
+
+# Install VS Code Extension
+code --install-extension bradgashler.htmltagwrap
+code --install-extension christian-kohler.path-intellisense
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension dbankier.vscode-quick-select
+code --install-extension donjayamanne.githistory
+code --install-extension donjayamanne.jquerysnippets
+code --install-extension eamodio.gitlens
+code --install-extension EditorConfig.EditorConfig
+code --install-extension eg2.tslint
+code --install-extension esbenp.prettier-vscode
+code --install-extension felixfbecker.php-debug
+code --install-extension felixfbecker.php-intellisense
+code --install-extension felixfbecker.php-pack
+code --install-extension hollowtree.vue-snippets
+code --install-extension HookyQR.beautify
+code --install-extension jeremyrajan.vscode-lebab
+code --install-extension johnpapa.Angular2
+code --install-extension k--kato.intellij-idea-keybindings
+code --install-extension leizongmin.node-module-intellisense
+code --install-extension lonefy.vscode-JS-CSS-HTML-formatter
+code --install-extension mkaufman.HTMLHint
+code --install-extension ms-vscode.azure-account
+code --install-extension ms-vscode.node-debug2
+code --install-extension nwallace.language-vscode-javascript-angular2
+code --install-extension onecentlin.laravel-blade
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension robertohuertasm.vscode-icons
+# code --install-extension small.php-ci
+code --install-extension steoates.autoimport
+code --install-extension traBpUkciP.vscode-npm-scripts
+code --install-extension TwentyChung.jsx
+code --install-extension vsmobile.vscode-react-native
+code --install-extension Zignd.html-css-class-completion
 
 # Change deafult shell to zsh
 # Password is required for this action
