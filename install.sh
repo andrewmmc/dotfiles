@@ -155,7 +155,7 @@ npm install -g vue-cli
 
 # Sync settings in this repo
 # Alfred settings
-rm -f "$HOME/Library/Application Support/Alfred 3/Alfred.alfredpreferences"
+rm -rf "$HOME/Library/Application Support/Alfred 3/Alfred.alfredpreferences"
 ln -sf "$HOME/dotfiles/alfred/Alfred.alfredpreferences" "$HOME/Library/Application Support/Alfred 3/Alfred.alfredpreferences"
 
 cd ./alfred/workflow
