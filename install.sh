@@ -127,6 +127,8 @@ brew cask install vlc
 brew cleanup
 brew cask cleanup
 
+brew install docker-compose
+
 # Install software via mas
 # Apple ID is required to login for this action
 # Uncomment the following command for auto sign in
