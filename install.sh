@@ -54,8 +54,8 @@ brew analytics off
 # Keep Homebrew packages up-to-date
 brew update && brew upgrade
 
-# Install Golang
-brew install go
+# Install Golang 1.9
+brew install go@1.9
 
 # Install Homebrew packages
 brew install git
