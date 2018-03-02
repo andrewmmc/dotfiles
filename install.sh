@@ -54,6 +54,9 @@ brew analytics off
 # Keep Homebrew packages up-to-date
 brew update && brew upgrade
 
+# Install Golang
+brew install go
+
 # Install Homebrew packages
 brew install git
 brew install git-lfs
