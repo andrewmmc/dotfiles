@@ -501,20 +501,26 @@
 	<string>657 535 400 129 0 0 1680 1027 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>530 490 620 392 0 0 1680 1027 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>15 1176 606 469 -254 1050 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>688 1451 770 429 -254 1050 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-254 1050 1920 1057 -254 1050 1920 1080 </string>
+	<string>878 491 719 402 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>171 1513 585 425 -254 1050 1920 1057 </string>
+	<string>934 62 719 402 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>782 184 879 710 0 0 1680 1027 </string>
+	<string>794 1310 868 447 -254 1050 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
 	<string>0 55 1680 972 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
 	<string>614 220 914 665 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
 	<string>506 363 585 425 0 0 1680 1027 </string>
+	<key>NeverWarnAboutShortLivedSessions_FA7AC44C-B346-4929-B95C-474B864F61BC</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_FA7AC44C-B346-4929-B95C-474B864F61BC_selection</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1878,7 +1884,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-02-13T03:19:09Z</date>
+	<date>2018-03-09T03:45:49Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
