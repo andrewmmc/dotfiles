@@ -5,7 +5,7 @@
     "editor.detectIndentation": true,
     "editor.renderLineHighlight": "all",
     "editor.renderWhitespace": "boundary",
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "off",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.iconTheme": "vscode-icons",
     "workbench.editor.enablePreview": false,

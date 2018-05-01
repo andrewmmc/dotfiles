@@ -62,6 +62,7 @@ brew install git
 brew install git-lfs
 brew install git-standup
 brew install mas
+brew install watchman # for create-react-native-app
 brew install wget
 brew install zsh zsh-completions
 
@@ -147,12 +148,13 @@ npm install -g @angular/cli
 npm install -g @pingy/cli
 npm install -g create-react-app
 npm install -g eslint
-eslint --init
-## TODO: Sync .eslintrc files
 npm install -g express-generator
 npm install -g firebase-tools
 npm install -g gulp-cli
 npm install -g react-native-cli
+npm install -g create-react-app
+npm install -g react-devtools
+npm install -g flow-typed
 npm install -g standard # Javascript Standard Style
 # npm install -g typescript
 # npm install -g tslint # need install typescript first
