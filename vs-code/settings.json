@@ -41,5 +41,6 @@
         "suppressWelcomeNotice": true
     },
     "extensions.ignoreRecommendations": false,
-    "gitlens.keymap": "alternate"
+    "gitlens.keymap": "alternate",
+    "gitlens.historyExplorer.enabled": true
 }
